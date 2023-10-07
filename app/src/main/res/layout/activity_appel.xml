@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/purple_700"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TELEPHONE"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/appel">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Entrer le numero "
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="90px">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_text_number"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:hint="Saisie le numero"
+            android:gravity="center"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRetour"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:hint="RETOUR"
+            android:background="@color/purple_700">
+
+        </Button>
+        <Button
+            android:id="@+id/btnAppel"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:hint="APPELER"
+            android:layout_marginLeft="20dp"
+            android:background="@color/purple_700">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/purple_700"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MENU"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:background="@drawable/rounded_layout"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+           >
+
+            <Button
+                android:id="@+id/btnMusique"
+                android:layout_width="63dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/musique"
+                android:text="o">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:paddingLeft="10px"
+                android:text="MUSIQUE"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:background="@drawable/rounded_layout"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <Button
+                android:id="@+id/btnVideo"
+                android:layout_width="50dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/video"
+                android:text="o">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:text="VIDEO"
+                android:paddingLeft="10px"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:background="@drawable/rounded_layout"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <Button
+                android:id="@+id/btnSms"
+                android:layout_width="63dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sms"
+                android:text="o">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:text="SMS"
+                android:paddingLeft="10px"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/rounded_layout"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAppel"
+                android:layout_width="50dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/appel"
+                android:text="o">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:text="APPEL"
+                android:paddingLeft="10px"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/rounded_layout"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/btnLoc"
+                android:layout_width="63dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sms"
+                android:text="o">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:text="LOCALISATION"
+                android:paddingLeft="10px"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/rounded_layout"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSite"
+                android:layout_width="50dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/appel"
+                android:text="o">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:text="SITE WEB"
+                android:paddingLeft="10px"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/purple_700">
+
+    </LinearLayout>
+</LinearLayout>
